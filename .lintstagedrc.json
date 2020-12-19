@@ -1,0 +1,6 @@
+{
+    "*.ts": [
+        "eslint --no-error-on-unmatched-pattern 'src/**' --fix",
+        "npm run test:staged"
+    ]
+}
