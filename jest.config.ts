@@ -11,6 +11,7 @@ module.exports = {
     '.module.ts',
     '<rootDir>/src/presentation/controllers/signup/signup-protocols.ts',
     '<rootDir>/src/presentation/protocols/index.ts',
+    '<rootDir>/src/data/usecases/add-account/db-add-account-protocols.ts',
     '.mock.ts'
   ],
   // The directory where Jest should output its coverage files
