@@ -18,6 +18,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   // The test environment that will be used for testing
   testEnvironment: 'node',
+  preset: '@shelf/jest-mongodb',
   transform: {
     '.+\\.ts$': 'ts-jest'
   }
